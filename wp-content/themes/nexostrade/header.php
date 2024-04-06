@@ -32,7 +32,7 @@
             </div>
             <div class="nav-wrapper row hide-laptop">
                 <div class="nav-elem row">
-                    Company 
+                    Accounts 
                     <svg class="down" xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
                         <g opacity="0.5">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.20505 3.95602C2.36777 3.7933 2.63158 3.7933 2.7943 3.95602L4.99967 6.1614L7.20505 3.95602C7.36776 3.7933 7.63158 3.7933 7.7943 3.95602C7.95702 4.11874 7.95702 4.38256 7.7943 4.54528L5.2943 7.04528C5.13158 7.208 4.86776 7.208 4.70505 7.04528L2.20505 4.54528C2.04233 4.38256 2.04233 4.11874 2.20505 3.95602Z" fill="#221F32"/>
