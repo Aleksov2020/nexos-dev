@@ -1085,6 +1085,62 @@ header {
 		width: 768px;
 	}
 
+	/*=============================================header=============================================*/
+
+	.mobile-wrapper {
+		width: 100%;
+	}
+
+	.nav-elem-wrapper {
+		align-items: center;
+		gap: 5px;
+		position: relative;
+		cursor: pointer;
+		justify-content: space-between;
+		user-select: none;
+		padding-left: 71px;
+		padding-right: 25px;
+	}
+
+	.nav-links {
+		position: relative;
+		top: 0;
+		z-index: 100;
+		background:#D4E2F5;
+		padding: 0;
+		border-radius: 0;
+		gap: 19px;
+		width: 100%;
+		transition: all 0.3s ease;
+		height: 0; 
+		overflow: hidden; 
+	}
+
+	.link-text:hover {
+		background-color: #003399;
+		color: white;
+
+	}
+	
+	.nav-links.active {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 19px;
+		padding-bottom: 19px;
+		height: auto; 
+		transition:  0.3s ease;
+	}
+
+	.naw-linnks-wrapper {
+		gap: 19px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.link-text {
+		padding-left: 97px;
+	}
+
 	/*=============================================slider=============================================*/
 	.slider-image {
 		background-image: none;
