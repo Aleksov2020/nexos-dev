@@ -44,4 +44,25 @@ document.addEventListener("DOMContentLoaded", function() {
 			block.classList.remove('clicked');
 		});
 	});
+
+	const options = {
+		root: null,
+		rootMargin: '0px',
+		threshold: 0.5
+	  };
+	  
+	  const observer = new IntersectionObserver((entries, observer) => {
+		entries.forEach(entry => {
+		  if (entry.intersectionRatio > 0) {
+			entry.target.classList.add('visible');
+			observer.unobserve(entry.target);
+		  }
+		});
+	  }, options);
+	  
+	  const elements = document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right');
+	  
+	  elements.forEach(element => {
+		observer.observe(element);
+	  });
 });

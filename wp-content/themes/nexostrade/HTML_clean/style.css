@@ -370,6 +370,10 @@ header {
     background-image: url(./img/alibaba-icon.png);
 }
 
+.apple-down, .tesla-down, .btc-up, .bmw-down, .ali-up {
+    display: none;
+}
+
 .trend-price {
     padding-right: 23.5px;
     gap: 3.6px;

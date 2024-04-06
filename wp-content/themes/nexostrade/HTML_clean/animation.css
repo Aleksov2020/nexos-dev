@@ -1,81 +1,18 @@
-/* Класс для плавного появления элемента слева */
-.fade-in-left {
-    opacity: 0;
-    animation: fadeInLeft ease 1s forwards;
-    -webkit-animation: fadeInLeft ease 1s forwards;
-    -moz-animation: fadeInLeft ease 1s forwards;
-    -o-animation: fadeInLeft ease 1s forwards;
-    -ms-animation: fadeInLeft ease 1s forwards;
-}
-
-/* Ключевые кадры для анимации появления слева */
-@keyframes fadeInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-50px); /* Смещение элемента влево */
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0); /* Начальное положение */
-    }
-}
-
-/* Класс для плавного появления элемента справа */
-.fade-in-right {
-    opacity: 0;
-    animation: fadeInRight ease 1s forwards;
-    -webkit-animation: fadeInRight ease 1s forwards;
-    -moz-animation: fadeInRight ease 1s forwards;
-    -o-animation: fadeInRight ease 1s forwards;
-    -ms-animation: fadeInRight ease 1s forwards;
-}
-
-/* Ключевые кадры для анимации появления справа */
-@keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(50px); /* Смещение элемента вправо */
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0); /* Начальное положение */
-    }
-}
-
-/* Класс для плавного появления элемента */
 .fade-in {
-    animation: fadeIn ease 1s;
-    -webkit-animation: fadeIn ease 1s;
-    -moz-animation: fadeIn ease 1s;
-    -o-animation: fadeIn ease 1s;
-    -ms-animation: fadeIn ease 1s;
+opacity: 0;
+transition: opacity 0.5s ease;
 }
-
-/* Ключевые кадры для анимации появления */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.fade-in-left {
+opacity: 0;
+transform: translateX(-50px);
+transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
-/* Пример класса для плавного исчезновения элемента */
-.fade-out {
-    animation: fadeOut ease 1s;
-    -webkit-animation: fadeOut ease 1s;
-    -moz-animation: fadeOut ease 1s;
-    -o-animation: fadeOut ease 1s;
-    -ms-animation: fadeOut ease 1s;
+.fade-in-right {
+opacity: 0;
+transform: translateX(50px);
+transition: opacity 0.5s ease, transform 0.5s ease;
 }
-
-/* Ключевые кадры для анимации исчезновения */
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+.visible {
+opacity: 1;
+transform: translateX(0);
 }
