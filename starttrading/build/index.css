@@ -1,0 +1,192 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+}
+
+.start-trade-wrapper {
+  background-color: #21759b;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  font-family: Gilroy Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.35px;
+  background: #F4F9F9;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 57px;
+  line-height: 54.72px;
+  letter-spacing: -0.05em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.title-black {
+  color: #000;
+}
+
+.accent {
+  color: #769CE8;
+}
+
+.accent-smooth {
+  color: #003399;
+}
+
+.button {
+  padding: 16px 62px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #769CE8;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background: #446AB6;
+  transition: 0.4s;
+}
+
+.light-text {
+  color: rgba(255, 255, 255, 0.5490196078);
+  font-size: 14px;
+  line-height: 20.86px;
+}
+
+.text-default {
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.35px;
+  color: rgba(0, 0, 0, 0.6705882353);
+}
+
+.false-padding {
+  border: 1px solid black;
+  padding: 100px 0;
+}
+
+.start-trade {
+  height: 533px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2B273F;
+  position: relative;
+}
+
+.start-wrapper-inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.start-trade-title-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+.start-trade-title {
+  padding-top: 100px;
+}
+
+.left-start {
+  gap: 34px;
+}
+
+.left-start-text {
+  max-width: 300px;
+}
+
+.right-start {
+  gap: 32px;
+}
+
+.start-trade-wrapper {
+  justify-content: space-between;
+}
+
+.right-start {
+  padding-top: 205px;
+}
+
+.counter-item {
+  gap: 10px;
+}
+
+.counters-wrapper .accent {
+  font-size: 51.82px;
+  line-height: 49.75px;
+  letter-spacing: -5%;
+}
+
+.counters-wrapper {
+  font-size: 21px;
+  letter-spacing: -5%;
+  color: #fff;
+}
+
+.counter-item {
+  align-items: baseline;
+}
+
+.image-start-trade {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 675px;
+  height: 675px;
+  position: absolute;
+  left: 53%;
+  top: 31px;
+  transform: translate(-53%, 0);
+}
+
+.align-center {
+  align-items: center;
+}
+
+.start-trade-wrapper {
+  width: auto !important;
+}
+
+.image-start-trade {
+  display: none;
+}
+
+.start-wrapper-inner {
+  flex-direction: column !important;
+}
+
+.right-start {
+  padding-top: 10px !important;
+}
+
+.start-trade-title {
+  padding-top: 0 !important;
+}
+
+/*# sourceMappingURL=index.css.map*/

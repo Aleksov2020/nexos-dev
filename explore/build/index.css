@@ -1,0 +1,228 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  font-family: Gilroy Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.35px;
+  background: #F4F9F9;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 57px;
+  line-height: 54.72px;
+  letter-spacing: -0.05em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.title-black {
+  color: #000;
+}
+
+.accent {
+  color: #769CE8;
+}
+
+.accent-smooth {
+  color: #003399;
+}
+
+.button {
+  padding: 16px 62px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #769CE8;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background: #446AB6;
+  transition: 0.4s;
+}
+
+.button-smooth {
+  background-color: #003399;
+}
+
+.button-transparent {
+  background-color: rgba(1, 1, 1, 0);
+  border: 1px solid #221F32;
+  border-radius: 5px;
+  color: #221F32;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.button-transparent:hover {
+  background-color: rgba(1, 1, 1, 0);
+}
+
+.light-text {
+  color: rgba(255, 255, 255, 0.5490196078);
+  font-size: 14px;
+  line-height: 20.86px;
+}
+
+.text-default {
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.35px;
+  color: rgba(0, 0, 0, 0.6705882353);
+}
+
+.link-text {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.26px;
+  color: #221F32;
+  text-decoration: none;
+}
+
+.show-laptop {
+  display: none;
+}
+
+.show-mobile {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.false-padding {
+  border: 1px solid black;
+  padding: 100px 0;
+}
+
+.expelore {
+  padding-bottom: 50px;
+}
+
+.title-explore-wrapper {
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 95px;
+}
+
+.explore-title {
+  padding-top: 95px;
+}
+
+.explore-table-element {
+  background-color: rgba(118, 156, 232, 0.1);
+  width: 135px;
+  padding: 24px 0;
+  border-radius: 10px;
+}
+
+.element-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-image img {
+  width: 62px;
+  height: 62px;
+}
+
+.stock-image img {
+  width: 51px;
+}
+
+.options-image img {
+  width: 50px;
+}
+
+.futures-image img {
+  width: 49px;
+}
+
+.crypto-image img {
+  width: 72px;
+  height: 72px;
+}
+
+.crypto-element {
+  padding: 18px 0;
+}
+
+.element-text {
+  padding-top: 27px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+.title-explore-table-wrapper {
+  display: flex;
+  gap: 36px;
+}
+
+.explore-subtitle {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.35px;
+  opacity: 0.67;
+  width: 40%;
+}
+
+.explore-table-element-wrapper {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+}
+
+.explore-table-element:hover {
+  background-color: rgba(118, 156, 232, 0.2);
+  transition: 0.4s;
+}
+
+.button-wrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.css.map*/

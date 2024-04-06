@@ -1,0 +1,149 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.expelore {
+  padding-bottom: 50px;
+}
+
+.title-explore-wrapper {
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 95px;
+}
+
+.explore-title {
+  padding-top: 95px;
+}
+
+.explore-table-element {
+  background-color: rgba(118, 156, 232, 0.1);
+  width: 135px;
+  padding: 24px 0;
+  border-radius: 10px;
+}
+
+.element-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-image img {
+  width: 62px;
+  height: 62px;
+}
+
+.stock-image img {
+  width: 51px;
+}
+
+.options-image img {
+  width: 50px;
+}
+
+.futures-image img {
+  width: 49px;
+}
+
+.crypto-image img {
+  width: 72px;
+  height: 72px;
+}
+
+.crypto-element {
+  padding: 18px 0;
+}
+
+.element-text {
+  padding-top: 27px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19.2px;
+  text-align: center;
+}
+
+.title-explore-table-wrapper {
+  display: flex;
+  gap: 36px;
+}
+
+.explore-subtitle {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.35px;
+  opacity: 0.67;
+  width: 40%;
+}
+
+.explore-table-element-wrapper {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+}
+
+.explore-table-element:hover {
+  background-color: rgba(118, 156, 232, 0.2);
+  transition: 0.4s;
+}
+
+.button-wrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1230px) {
+  .explore-table-element-wrapper {
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  .explore-table-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .explore-table-element-wrapper {
+    width: 90%;
+  }
+}
+@media (max-width: 714px) {
+  .explore-title {
+    font-size: 27px;
+    line-height: 25.9px;
+    width: 70%;
+    text-align: center;
+    padding-top: 0;
+  }
+  .title-explore-wrapper {
+    padding-top: 28px;
+  }
+  .explore-subtitle {
+    width: 95%;
+  }
+  .explore-table-element {
+    width: 97px;
+    padding: 17px 0;
+  }
+  .element-image img {
+    width: 44px;
+    height: 44px;
+  }
+  .explore-table-element-wrapper {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .explore-table-element-wrapper {
+    gap: 18px;
+  }
+  .element-text {
+    padding-top: 11px;
+    font-size: 17px;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

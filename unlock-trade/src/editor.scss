@@ -1,0 +1,149 @@
+* {
+    margin: 0
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    font-family: Gilroy Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.35px;
+    background: #F4F9F9;
+}
+
+.wrapper {
+    width: auto !important;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 57px;
+    line-height: 54.72px;
+    letter-spacing: -0.05em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.title-black {
+    color: #000;
+}
+
+.accent {
+    color: #769CE8;
+}
+
+.accent-smooth {
+    color: #003399;
+}
+
+.button {
+    padding: 16px 62px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #769CE8;
+    color: #fff;
+    width: fit-content;
+    user-select: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button:hover {
+    background: #446AB6;
+    transition: .4s;
+}
+
+.light-text {
+    color: #FFFFFF8C;
+    font-size: 14px;
+    line-height: 20.86px;   
+}
+
+.text-default {
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.35px;
+    color: #000000AB;
+}
+
+
+.false-padding {
+    border: 1px solid black;
+    padding: 100px 0;
+}
+
+
+.unlock {
+    height: 522px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(43, 39, 63, 1);
+    position: relative;
+}
+
+.unlock-start-trade-title {
+    padding-top: 100px;
+}
+
+.unlock-left-start {
+    gap: 24px;
+}
+
+.left-start-text {
+    max-width: 465px;
+}
+
+.right-start {
+    gap: 32px;
+}
+
+.start-trade-wrapper {
+    justify-content: space-between;
+}
+
+.right-start {
+    padding-top: 205px;
+    z-index: 10;
+}
+
+.counter-item {
+    gap: 10px;
+}
+
+.counters-wrapper .accent {
+    font-size: 51.82px;
+    line-height: 49.75px;
+    letter-spacing: -5%;
+}
+
+.counters-wrapper {
+    font-size: 21px;
+    letter-spacing: -5%;
+    color: #fff;
+}
+
+.counter-item {
+    align-items:baseline;
+}
+
+.image-unlock {
+    display: none
+}
+
+.align-center {
+    align-items: center;
+}
+
+.unlock-start-trade-title {
+    padding-top: 0 !important;
+}

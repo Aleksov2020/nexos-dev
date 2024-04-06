@@ -1,0 +1,169 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.start-trade {
+  height: 533px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2B273F;
+  position: relative;
+}
+
+.start-wrapper-inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.start-trade-title-mobile {
+  display: none;
+  visibility: hidden;
+}
+
+.start-trade-title {
+  padding-top: 100px;
+}
+
+.left-start {
+  gap: 34px;
+}
+
+.left-start-text {
+  max-width: 300px;
+}
+
+.right-start {
+  gap: 32px;
+}
+
+.start-trade-wrapper {
+  justify-content: space-between;
+}
+
+.right-start {
+  padding-top: 205px;
+}
+
+.counter-item {
+  gap: 10px;
+}
+
+.counters-wrapper .accent {
+  font-size: 51.82px;
+  line-height: 49.75px;
+  letter-spacing: -5%;
+}
+
+.counters-wrapper {
+  font-size: 21px;
+  letter-spacing: -5%;
+  color: #fff;
+}
+
+.counter-item {
+  align-items: baseline;
+}
+
+.image-start-trade {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 675px;
+  height: 675px;
+  position: absolute;
+  left: 53%;
+  top: 31px;
+  transform: translate(-53%, 0);
+}
+
+@media (max-width: 1230px) {
+  .start-trade {
+    height: 475px;
+    background-position-x: center;
+  }
+  .start-trade-title-mobile {
+    display: block;
+    text-align: center;
+    visibility: visible;
+    padding-top: 50px;
+  }
+  .start-trade-title {
+    display: none;
+    visibility: hidden;
+  }
+  .start-trade-wrapper {
+    flex-direction: column;
+    gap: 38px;
+  }
+  .left-start {
+    gap: 34px;
+    width: 230px;
+  }
+  .image-start-trade {
+    width: 503px;
+    height: 503px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 116px;
+    transform: translate(-53%, 0);
+  }
+  .right-start {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+  .start-wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  .counters-wrapper .accent {
+    font-size: 40px;
+    line-height: 34px;
+  }
+}
+@media (max-width: 400px) {
+  .image-start-trade {
+    display: none;
+    visibility: hidden;
+  }
+  .start-trade-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .start-wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .start-trade {
+    height: 502px;
+    background-position-x: center;
+  }
+  .start-trade-title-mobile {
+    padding-top: 42px;
+    font-size: 27px;
+    line-height: 25.92px;
+    width: 70%;
+  }
+  .right-start {
+    width: 100%;
+    align-items: center;
+    padding-top: 27px;
+    gap: 44px;
+  }
+  .counters-wrapper .accent {
+    font-size: 41px;
+    line-height: 39px;
+  }
+  .left-start-text {
+    color: white;
+  }
+  .left-start {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/
