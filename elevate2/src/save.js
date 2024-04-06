@@ -27,12 +27,12 @@ export default function save(props) {
 	<section class="elevate light-bg" { ...useBlockProps.save() }>
         <div class="wrapper">
             <div class="title-table-wrapper col">
-                <div class="elevate-title title-black title">
+                <div class="elevate-title title-black title fade-in">
                     {title} <span class="accent-smooth"> {spanTitle} </span>
                 </div>
                 <div class="elevate-table-wrapper">
                     <div class="elevate-table row">
-                        <div class="elevate-table-right-part col">
+                        <div class="elevate-table-right-part col fade-in-left">
                             <div class="elevate-table-element row">
                                 <div class="table-number">
                                     01
@@ -106,7 +106,7 @@ export default function save(props) {
                                 </div>
                             </div>
                         </div>
-                        <div class="elevate-table-left-part col">
+                        <div class="elevate-table-left-part col fade-in-right">
                             <div class="elevate-table-element row">
                                 <div class="table-number">
                                     05
