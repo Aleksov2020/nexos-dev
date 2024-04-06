@@ -354,6 +354,22 @@ header {
     background-size: cover;
 }
 
+.trend-item-icon.apple-icon {
+    background-image: url(./img/apple-icon.png);
+}
+
+.trend-item-icon.bitcoin-icon {
+    background-image: url(./img/bitcoin-icon.png);
+}
+
+.trend-item-icon.bmw-icon {
+    background-image: url(./img/bmw-icon.png);
+}
+
+.trend-item-icon.alibaba-icon {
+    background-image: url(./img/alibaba-icon.png);
+}
+
 .trend-price {
     padding-right: 23.5px;
     gap: 3.6px;
