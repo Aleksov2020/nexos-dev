@@ -145,14 +145,17 @@
                 </div>
             </div>
             <div class="buttons-header-wrapper row">
-                <div class="button button-black row hide-mobile">
+                <div class="nav-elem button button-black row hide-mobile">
                     <img src="<?php echo get_template_directory_uri()?>/assets/img/IconEN.png">
                     En
                     <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
                         <g opacity="0.5">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M2.20505 3.45602C2.36777 3.2933 2.63158 3.2933 2.7943 3.45602L4.99967 5.6614L7.20505 3.45602C7.36776 3.2933 7.63158 3.2933 7.7943 3.45602C7.95702 3.61874 7.95702 3.88256 7.7943 4.04528L5.2943 6.54528C5.13158 6.708 4.86776 6.708 4.70505 6.54528L2.20505 4.04528C2.04233 3.88256 2.04233 3.61874 2.20505 3.45602Z" fill="white"/>
                         </g>
-                        </svg>
+                    </svg>
+                    <div class="nav-links lang-links col">
+                        <ul><?php pll_the_languages();?></ul>
+                    </div>
                 </div>
                 <div class="button">
                     <span class="hide-mobile">Login </span>

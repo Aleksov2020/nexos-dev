@@ -18,6 +18,7 @@
 		"@wordpress/scripts": "^27.6.0"
 	},
 	"dependencies": {
+		"@wordpress/browserslist-config": "^5.38.0",
 		"wp-scripts": "^0.0.1-security"
 	}
 }
