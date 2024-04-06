@@ -829,7 +829,7 @@ header {
 
 .calculator-title-wrapper {
 	gap: 29px;
-	background-image: url(img/calc-bg.png);
+	background-image: url(./assets/img/calc-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 0 34px;
