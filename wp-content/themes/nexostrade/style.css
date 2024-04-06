@@ -266,7 +266,7 @@ header {
 	position: absolute;
 	top: 25px;
 	z-index: 100;
-	background: #F2F2F296;
+	background: #f8f8f8;
 	padding: 0 36px;
 	border-radius: 11px;
 	gap: 7px;
@@ -274,6 +274,11 @@ header {
 	transition: all 0.3s ease;
 	height: 0; 
 	overflow: hidden; 
+}
+
+.lang-links {
+	padding: 0 0;
+	top: 50px;
 }
 
 .nav-links.active {
@@ -1135,6 +1140,20 @@ header {
 		border-radius: 0;
 		gap: 19px;
 		width: 100%;
+		transition: all 0.3s ease;
+		height: 0; 
+		overflow: hidden; 
+	}
+
+	.nav-links.lang-links {
+		position: absolute;
+		top: 25px;
+		z-index: 100;
+		background: #f8f8f8;
+		padding: 0 0;
+		border-radius: 11px;
+		gap: 7px;
+		width: 200px;
 		transition: all 0.3s ease;
 		height: 0; 
 		overflow: hidden; 
