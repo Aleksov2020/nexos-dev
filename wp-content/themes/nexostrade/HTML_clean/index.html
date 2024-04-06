@@ -156,33 +156,6 @@
             </div>
         </div>
     </header>
-    <script>
-        // Получаем все элементы навигации
-        var navElements = document.querySelectorAll('.nav-elem');
-    
-        // Перебираем элементы навигации и добавляем обработчик событий клика
-        navElements.forEach(function(navElement) {
-            navElement.addEventListener('click', function() {
-                // Получаем следующий элемент в DOM, который является блоком с ссылками
-                var linksBlock = this.querySelector('.nav-links');
-                
-                if (this.classList.contains("clicked")) {
-                    linksBlock.classList.remove('active');
-                    this.classList.remove('clicked');
-                } else {
-                    document.querySelectorAll('.nav-links').forEach(function(block) {
-                        block.classList.remove('active');
-                    });
-                    document.querySelectorAll('.nav-elem').forEach(function(block) {
-                        block.classList.remove('clicked');
-                    });
-
-                    linksBlock.classList.add('active');
-                    this.classList.add('clicked');
-                }
-            });
-        });
-    </script>
 
     <div class="slider">
         <div class="wrapper slider-wrapper row">
@@ -220,21 +193,24 @@
                     <li class="splide__slide">
                         <div class="trend-item row">
                             <div class="trend-info row">
-                                <div class="trend-item-icon">
+                                <div class="trend-item-icon apple-icon">
                                    
                                 </div>
                                 <div class="trend-item-label">
-                                    Tesla
+                                    Apple
                                 </div>
                             </div>
                             <div class="trend-price row">
                                 <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                    <svg class="apple-up" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
                                         <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
+                                    </svg>
+                                    <svg class="apple-down" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                        <path d="M7.5 4.375H0L3.75 0.625L7.5 4.375Z" fill="#F2C94C"/>
                                     </svg>
                                 </div>
                                 <div class="trend-item-price-val">
-                                    $216,466
+                                    $<span class="apple-price">172,72</span>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +218,7 @@
                     <li class="splide__slide">
                         <div class="trend-item row">
                             <div class="trend-info row">
-                                <div class="trend-item-icon">
+                                <div class="trend-item-icon tesla-icon">
 
                                 </div>
                                 <div class="trend-item-label">
@@ -251,12 +227,15 @@
                             </div>
                             <div class="trend-price row">
                                 <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                    <svg class="tesla-up" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
                                         <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
+                                    </svg>
+                                    <svg class="tesla-down" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                        <path d="M7.5 4.375H0L3.75 0.625L7.5 4.375Z" fill="#F2C94C"/>
                                     </svg>
                                 </div>
                                 <div class="trend-item-price-val">
-                                    $216,466
+                                    $<span class="tesla-price">216,466</span>
                                 </div>
                             </div>
                         </div>
@@ -264,21 +243,24 @@
                     <li class="splide__slide">
                         <div class="trend-item row">
                             <div class="trend-info row">
-                                <div class="trend-item-icon">
+                                <div class="trend-item-icon bitcoin-icon">
 
                                 </div>
                                 <div class="trend-item-label">
-                                    Tesla
+                                    Bitcoin
                                 </div>
                             </div>
                             <div class="trend-price row">
                                 <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                    <svg class="btc-up" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
                                         <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
+                                    </svg>
+                                    <svg class="btc-down" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                        <path d="M7.5 4.375H0L3.75 0.625L7.5 4.375Z" fill="#F2C94C"/>
                                     </svg>
                                 </div>
                                 <div class="trend-item-price-val">
-                                    $216,466
+                                    $<span class="btc-price">66 824,60</span>
                                 </div>
                             </div>
                         </div>
@@ -286,21 +268,24 @@
                     <li class="splide__slide">
                         <div class="trend-item row">
                             <div class="trend-info row">
-                                <div class="trend-item-icon">
+                                <div class="trend-item-icon bmw-icon">
 
                                 </div>
                                 <div class="trend-item-label">
-                                    Tesla
+                                    BMW
                                 </div>
                             </div>
                             <div class="trend-price row">
                                 <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                    <svg class="bmw-up" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
                                         <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
+                                    </svg>
+                                    <svg class="bmw-down" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                        <path d="M7.5 4.375H0L3.75 0.625L7.5 4.375Z" fill="#F2C94C"/>
                                     </svg>
                                 </div>
                                 <div class="trend-item-price-val">
-                                    $216,466
+                                    $<span class="bmw-price">106.70</span>
                                 </div>
                             </div>
                         </div>
@@ -308,153 +293,24 @@
                     <li class="splide__slide">
                         <div class="trend-item row">
                             <div class="trend-info row">
-                                <div class="trend-item-icon">
+                                <div class="trend-item-icon alibaba-icon">
 
                                 </div>
                                 <div class="trend-item-label">
-                                    Tesla
+                                    Alibaba
                                 </div>
                             </div>
                             <div class="trend-price row">
                                 <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                    <svg class="ali-up" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
                                         <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
+                                    </svg>
+                                    <svg class="ali-down" xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
+                                        <path d="M7.5 4.375H0L3.75 0.625L7.5 4.375Z" fill="#F2C94C"/>
                                     </svg>
                                 </div>
                                 <div class="trend-item-price-val">
-                                    $216,466
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="trend-item row">
-                            <div class="trend-info row">
-                                <div class="trend-item-icon">
-
-                                </div>
-                                <div class="trend-item-label">
-                                    Tesla
-                                </div>
-                            </div>
-                            <div class="trend-price row">
-                                <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                                        <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
-                                    </svg>
-                                </div>
-                                <div class="trend-item-price-val">
-                                    $216,466
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="trend-item row">
-                            <div class="trend-info row">
-                                <div class="trend-item-icon">
-
-                                </div>
-                                <div class="trend-item-label">
-                                    Tesla
-                                </div>
-                            </div>
-                            <div class="trend-price row">
-                                <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                                        <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
-                                    </svg>
-                                </div>
-                                <div class="trend-item-price-val">
-                                    $216,466
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="trend-item row">
-                            <div class="trend-info row">
-                                <div class="trend-item-icon">
-
-                                </div>
-                                <div class="trend-item-label">
-                                    Tesla
-                                </div>
-                            </div>
-                            <div class="trend-price row">
-                                <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                                        <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
-                                    </svg>
-                                </div>
-                                <div class="trend-item-price-val">
-                                    $216,466
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="trend-item row">
-                            <div class="trend-info row">
-                                <div class="trend-item-icon">
-
-                                </div>
-                                <div class="trend-item-label">
-                                    Tesla
-                                </div>
-                            </div>
-                            <div class="trend-price row">
-                                <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                                        <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
-                                    </svg>
-                                </div>
-                                <div class="trend-item-price-val">
-                                    $216,466
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="trend-item row">
-                            <div class="trend-info row">
-                                <div class="trend-item-icon">
-
-                                </div>
-                                <div class="trend-item-label">
-                                    Tesla
-                                </div>
-                            </div>
-                            <div class="trend-price row">
-                                <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                                        <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
-                                    </svg>
-                                </div>
-                                <div class="trend-item-price-val">
-                                    $216,466
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="trend-item row">
-                            <div class="trend-info row">
-                                <div class="trend-item-icon">
-
-                                </div>
-                                <div class="trend-item-label">
-                                    Tesla
-                                </div>
-                            </div>
-                            <div class="trend-price row">
-                                <div class="trend-item-price">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5" fill="none">
-                                        <path d="M7.5 0.625H0L3.75 4.375L7.5 0.625Z" fill="#EB5757"/>
-                                    </svg>
-                                </div>
-                                <div class="trend-item-price-val">
-                                    $216,466
+                                    $<span class="ali-price">74,16</span>
                                 </div>
                             </div>
                         </div>
